@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel OTP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/youngmayor/laravel-otp.svg?style=flat-square)](https://packagist.org/packages/youngmayor/laravel-otp)
 [![Total Downloads](https://img.shields.io/packagist/dt/youngmayor/laravel-otp.svg?style=flat-square)](https://packagist.org/packages/youngmayor/laravel-otp)
 ![GitHub Actions](https://github.com/youngmayor/laravel-otp/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A laravel package to create, validate and manage OTPs.
 
 ## Installation
 
