@@ -8,16 +8,14 @@
     "homepage": "https://github.com/youngmayor/laravel-otp",
     "license": "MIT",
     "type": "library",
-    "authors": [
-        {
-            "name": "Meyoron Aghogho",
-            "email": "youngmayor.dev@gmail.com",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Meyoron Aghogho",
+        "email": "youngmayor.dev@gmail.com",
+        "role": "Developer"
+    }],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "php": "^7.2|^8.0",
+        "illuminate/support": "~6|~7|~8"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
@@ -36,7 +34,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -45,10 +42,7 @@
         "laravel": {
             "providers": [
                 "YoungMayor\\LaravelOtp\\LaravelOtpServiceProvider"
-            ],
-            "aliases": {
-                "LaravelOtp": "YoungMayor\\LaravelOtp\\LaravelOtpFacade"
-            }
+            ]
         }
     }
 }
